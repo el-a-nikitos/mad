@@ -358,8 +358,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 2400 2300 2400
 Wire Wire Line
-	2300 2500 4000 2500
-Wire Wire Line
 	2950 2900 2950 2700
 Wire Wire Line
 	2950 2700 2300 2700
@@ -525,7 +523,7 @@ Text Label 3350 2600 0    50   ~ 0
 VCC
 Wire Wire Line
 	4000 2600 3350 2600
-Text Label 2950 2600 0    50   ~ 0
+Text Label 2950 2500 0    50   ~ 0
 VCC_IN
 Wire Wire Line
 	2950 2600 2300 2600
@@ -554,7 +552,6 @@ Wire Wire Line
 Connection ~ 2300 2400
 Wire Wire Line
 	1600 2500 2300 2500
-Connection ~ 2300 2500
 Wire Wire Line
 	1600 2600 2300 2600
 Connection ~ 2300 2600
@@ -659,4 +656,27 @@ Wire Wire Line
 	9050 3900 8350 3900
 Wire Wire Line
 	9050 4000 8350 4000
+Text Label 8000 2500 0    50   ~ 0
+ADC6
+Text Label 8000 3000 0    50   ~ 0
+PC2
+Text Label 8000 2900 0    50   ~ 0
+PC1
+Text Label 8000 2800 0    50   ~ 0
+PC0
+Text Label 8000 2700 0    50   ~ 0
+ADC7
+Text Label 8000 3300 0    50   ~ 0
+PC3
+Text Label 8000 3400 0    50   ~ 0
+PC4
+Text Label 8000 3500 0    50   ~ 0
+PC5
+Wire Wire Line
+	3350 2500 4000 2500
+Wire Wire Line
+	2300 2500 2950 2500
+Connection ~ 2300 2500
+Text Label 2950 2600 0    50   ~ 0
+GND
 $EndSCHEMATC
